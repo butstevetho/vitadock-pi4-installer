@@ -1,0 +1,1 @@
+ACTION=="add", ATTRS{idProduct}=="1337", ATTRS{idVendor}=="054c", TAG+="systemd", ENV{SYSTEMD_USER_WANTS}="vita.service"

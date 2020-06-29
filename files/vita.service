@@ -1,0 +1,2 @@
+[Service]
+ExecStart=/bin/bash /home/pi/VitaDock/launch.sh
