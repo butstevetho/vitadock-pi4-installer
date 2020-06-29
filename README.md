@@ -3,6 +3,8 @@ A series of scripts that install the necessary VitaDock components on your exist
 
 If you have questions, feedback, issues with getting vitadock running, or just want to chat, feel free to join the VitaDock discord: https://discord.gg/J62DM4N
 
+This project is actively maintained over at https://github.com/TeamVitaDock/ (if it is not public, don't worry, it will be back.)
+
 # Installation
 
 ***Prerequisites***
