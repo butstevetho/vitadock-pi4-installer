@@ -21,7 +21,7 @@ NOTE: You may also use your existing rpiOS Desktop installation, provided it is 
 ***Download & Install***
 
 In a terminal, run:
-`cd ~/ && git clone https://github.com/TeamVitaDock/VitaDock.git && /home/pi/VitaDock/files/./setup.sh`
+`cd ~/ && git clone https://github.com/butstevetho/vitadock-pi4-installer.git && /home/pi/vitadock-pi4-installer/files/./setup.sh`
 
 During this install process, you will be prompted to enter a "Pretty Name". This is the name your PS Vita will see when searching for bluetooth devices. Default should be 'Raspberry Pi' but you can change it to whatever you like. If you want to change the Pretty Name, you can run this installer again.
 
