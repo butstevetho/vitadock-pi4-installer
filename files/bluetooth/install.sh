@@ -12,5 +12,5 @@ sudo apt update
 sudo apt upgrade -y
 
 echo "Installing components"
-sudo /home/pi/VitaDock/files/bluetooth/./install-bluetooth.sh
-sudo /home/pi/VitaDock/files/bluetooth/./install-upnp.sh
+sudo /home/pi/vitadock-pi4-installer/files/bluetooth/./install-bluetooth.sh
+sudo /home/pi/vitadock-pi4-installer/files/bluetooth/./install-upnp.sh
