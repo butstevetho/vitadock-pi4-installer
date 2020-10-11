@@ -1,6 +1,6 @@
 #!/bin/sh
 sudo apt update && sudo apt upgrade -y
-cd /home/pi/vitadock-pi4-installer/files/ && sudo chmod +x *.sh
+cd ~/vitadock-pi4-installer/files/ && sudo chmod +x *.sh
 sudo mkdir /home/pi/VitaDock
 sudo cp /home/pi/vitadock-pi4-installer/files/vita.service /etc/systemd/user/
 sudo cp /home/pi/vitadock-pi4-installer/files/91-vita.rules /etc/udev/rules.d/
@@ -9,7 +9,8 @@ sudo cp /home/pi/vitadock-pi4-installer/files/close.sh /home/pi/VitaDock/
 sudo cp /home/pi/vitadock-pi4-installer/files/launch.sh /home/pi/VitaDock/
 sudo systemctl enable /etc/systemd/user/vita.service && sudo systemctl start vita.service
 echo -e "\e[92mThe above systemctl 'error' is nothing to worry about. Do not panic. Moving on...\e[0m"
-/home/pi/vitadock-pi4-installer/files/bluetooth/./install.sh
+cd ~/vitadock-pi4-installer/files/bluetooth
+./install.sh
 echo -e "\nMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 MMMMMMMMMMMMMMMMMMMMMMMNkxOKNWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 MMMMMMMMMMMMMMMMMMMMMMMK,  ..,:coxOKNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
